@@ -1,4 +1,4 @@
-# <p style="center">Bases de la programación</p>  
+# Bases de la programación  
 
 ---
 
@@ -78,3 +78,59 @@ Los más conocidos son:
 Todos estos lenguajes además se separan en débil y fuertemente tipados.
 Los fuertemente tipados son aquellos que se define el tipo de dato antes de compilarlo o interpretarlo(C/C++, C#, TypeScript).
 Los débilmente tipados son aquellos que se define el tipo de dato mientras se compila o interpreta(JavaScritp, [PHP](https://www.php.net/)).
+
+---
+
+## Paradigmas
+
+Cada lenguaje de programación tiene una forma específica de trabajar la información y las rutinas que debe realizar un programa.  
+A la manera que tiene cada lenguaje de abordar este trabajo se le llama paradigma.  
+
+Existen 3 grandes paradigmas:
++ Imperativo
++ Funcional
++ Lógico
+
+
+### Imperativo (C/C++,Java...)
+
+- Declara explícitamente los pasos del programa y el corpus de variables que necesita.
+- Las variables son mutables.
+- Se ejecutan los pasos del programa secuencialmente. Existe un corpus de instrucciones que permiten modificar la secuencia de ejecución.
+
+### Funcional (Lisp, Haskell...)
+
+- Declara funciones para un reducido grupo de variables.
+- Solo se pueden declarar variables como parametros de una funcion.
+- Estas variables son inmutables(nunca cambian de valor).
+- Las funciones pueden actuar como variables.
+- Uso de la recursión como método iterativo.
+
+### Lógico (Prolog, F#...)
+
+- Los programas siguen un esquema lógico, compone al programa usando hechos, predicados y relaciones.
+- Las variables son libres, mutables e inmutables, declaradas o no.
+- Finalmente se reduce todo a un solo problema de decisión.
+
+
+### Otros paradigmas
+
+#### Programación orientada a objetos (POO) (C#, Java...)
+
+- Los programas se componen de objetos, que son unidades de datos responsables de proveer y recaptar información del entorno de ejecución.
+- Los objetos tienen subrutinas llamadas métodos y variables internas llamadas atributos.
+- Organiza un corpus de entidades en una comunidad para componer el programa, esta comunidad es el entorno de ejecución.
+- Se basa en los 3 paradigmas fundamentales para funcionar.
+- Permite una sostenibilidad del código de los programas mucho mejor que el resto de paradigmas.
+- Se define en los principios [SOLID](https://es.wikipedia.org/wiki/SOLID) y [STUPID](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/ "Lo que se debe evitar hacer") como base de su filosofía.
+
+#### Declarativos (Miranda, Erlang...)
+
+- Se escribe explícitamente que resultado se quiere obtener y la máquina se encarga de generarlo.
+- Todos los cálculos, variables o modificaciones en el resultado dependen de la asignación inicial que se realice. Por esto, todas las variables son inmutables.
+- Depende de técnicas de reasignación para poder modificar el resultado final.
+
+
+Existen lenguajes que pueden ser compilados e interpretados y, a su vez, ser débil y fuertemente tipados sin tener un único paradigma asociado o que pueda trabajar en múltiples paradigmas a la vez.
+---
+
