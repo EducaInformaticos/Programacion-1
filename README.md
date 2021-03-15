@@ -132,5 +132,6 @@ Existen 3 grandes paradigmas:
 
 
 Existen lenguajes que pueden ser compilados e interpretados y, a su vez, ser débil y fuertemente tipados sin tener un único paradigma asociado o que pueda trabajar en múltiples paradigmas a la vez.
+
 ---
 
