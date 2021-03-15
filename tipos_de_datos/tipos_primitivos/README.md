@@ -28,19 +28,19 @@ Representan valores 0/1 o false/true.
 
 El modificador `const` hace que un valor con este modificador delante no se pueda modificar dentro de una función.
 
-<code>
+```
 	const double FIEGENBAUM_THETA = 4.6695201609102990;
-	const double FIEGENBAUM_ALPHA = 2.5029078750958928
+	const double FIEGENBAUM_ALPHA = 2.5029078750958928;
 	const double PI = 3.14159265358979323846;
 	const double e = 2.718281828459045235360;
-</code>
+```
 
 ### El modificador * y &
 
 El modificador `*` hace que una variable copie la dirección de memoria de otra variable y la almacene, permitiendo copiar datos y modificar la copia y el originar de igual forma.
 El modificador `&` permite hacer lo mismo, además de crear un "alias" al dato que apuntamos.
 
-<code>
+```
 	int myVar = e; // copia el valor de e en myVar
 	int *puntero_a_myVar = myVar;
 	int direccion_memoria_myVar = puntero_a_myVar;
@@ -49,7 +49,7 @@ El modificador `&` permite hacer lo mismo, además de crear un "alias" al dato q
 	int &myVar_otro_nombre = *myVar;
 	myVar_otro_nombre++; // suma uno a myvar
 	printf("%d", myVar);
-</code>
+```
 
 ### Enteros
 
@@ -57,7 +57,7 @@ Se escriben como `int`.
 Se puede modificar el espacio que ocupa en memória con los modificadores: `short | long | long long`  
 Se puede modificar la presencia del signo con `unsigned`
 
-<code>
+```	
 	unsigned int uno = 1;
 	unsigned int diez = 10;
 	unsigned int diez_mil = 10000;
@@ -70,14 +70,14 @@ Se puede modificar la presencia del signo con `unsigned`
 	(unsigned) int i;		// es un número en 4bytes
 	(unsigned) long int l;		// es un número en 8bytes
 	(unsigned) long long int ll;	// es un número en 16bytes
-</code>
+```
 
 ### Carácteres
 
 Se escriben como `char`.
 Se expande en un `unsigned short short int`. Por tanto, los valores que toma solo son de 0 a 255 y lo que representan se puede consultar en las tablas [ASCII](https://www.asciitable.com/).
 
-<code>
+```
 	// las comillas simples hacen que la variable a tome el valor del caracter a
 	char a = 'a';
 	char b = 'b';
@@ -90,16 +90,16 @@ Se expande en un `unsigned short short int`. Por tanto, los valores que toma sol
 	// también se puede asignar un número
 	char alpha = 224;
 	char bell = 7; // cuando se imprime, en los ordenadores antiguos hace un ruidito
-</code>
+```
 
 ### Booleanos
 
 En otros lenguajes esta definido, pero en C no.  
 Este tipo de variables toma 0 como false y 1 o mayor que 1 como true.  
 Si quisieramos crear un tipo bool en C sería como:
-<code>
+```
 	typedef enum { false = 0, true = !false } bool;
-</code>
+```
 Mas adelante se trata que es un enum y como definir nuevos tipos.
 
 ### Números decimales
@@ -108,10 +108,10 @@ C nos brinda con `float` y `double`.
 Ambos pueden contar con o sin signo, ser constantes o no.
 float es de simple precisión (16bytes).
 double es de doble precisión (32bytes).
-<code>
+```
 	float PI = 3.1415926535;
 	double PIPI = 3.14159265358979323846;
-</code>
+```
 
 ---
 
