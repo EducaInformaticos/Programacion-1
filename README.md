@@ -1,16 +1,22 @@
-# Bases de la programación  
+#   
+# <p style="text-align: center;">**BASES DE LA PROGRAMACION**</p>
 
 ---
 
-## La programación.
+Si estás buscando información sobre C, C++ o Java, ves al índice. [IR AL INDICE](/PAGEMAP.md)  
+
+En esta página tienes un breve resumen sobre los lenguajes de programación.
+
+---
+
+## <p style="text-align: center;">**La programación.**</p>
 
 Existen muchos campos bajo este nombre.
 
-Aquí nos centramos en las bases de la programación y conocimiento geneérico y básico de lo que es la programación.
+Aquí nos centramos en las bases de la programación y conocimiento geneérico y básico de lo que es la programación.  
+Empezando por las herramientas más básicas para poder construir programas.
 
----
-
-## Los lenguajes
+## **Los lenguajes**
 
 Existen tantos lenguajes como se pueda imaginar.  
 Pero se agrupan en 3 grandes tipos:  
@@ -19,7 +25,7 @@ Pero se agrupan en 3 grandes tipos:
 + Interpretados (nivel alto)
 
 
-### Ensamblados
+### **Ensamblados**
 
 Existen tantos lenguajes como familias de procesadores.  
 Es una traducción directa de los '1s y 0s' que entiende el ordenador.
@@ -34,7 +40,7 @@ Habitualmente se programa con lenguajes de nivel alto.
 
 
 
-### Compilados
+### **Compilados**
 
 Los lenguajes compilados son, por lo general, los más rápidos, después de los ensamblados.  
 Estos lenguajes tienen 2 fases en su funcionamiento:  
@@ -53,7 +59,7 @@ Algunos lenguajes son:
 
 
 
-### Interpretados
+### **Interpretados**
 
 Los lenguajes interpretados son los más lentos.  
 Estos lenguajes funcionan sobre un intérprete que hace a la vez de compilador y de entorno de ejecución, esto hace que se ralentice el proceso entero ya que se hace cada vez que se ejecuta.  
@@ -70,10 +76,10 @@ Los más conocidos son:
 + [Python](https://www.python.org/)
 + [Lua](https://www.lua.org/)
 + [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
-+ [Java](https://www.java.com/es/)(Se compila y se interpreta, tiene todo lo malo de los 2)
++ [Java](https://www.java.com/es/) (Se compila y se interpreta, tiene todo lo malo de los 2)
 
 
-#### Clasificaciones adicionales
+#### **Clasificaciones adicionales**
 
 Todos estos lenguajes además se separan en débil y fuertemente tipados.
 Los fuertemente tipados son aquellos que se define el tipo de dato antes de compilarlo o interpretarlo(C/C++, C#, TypeScript).
@@ -81,7 +87,7 @@ Los débilmente tipados son aquellos que se define el tipo de dato mientras se c
 
 ---
 
-## Paradigmas
+## **Paradigmas**
 
 Cada lenguaje de programación tiene una forma específica de trabajar la información y las rutinas que debe realizar un programa.  
 A la manera que tiene cada lenguaje de abordar este trabajo se le llama paradigma.  
@@ -92,13 +98,13 @@ Existen 3 grandes paradigmas:
 + Lógico
 
 
-### Imperativo (C/C++,Java...)
+### **Imperativo (C/C++,Java...)**
 
 - Declara explícitamente los pasos del programa y el corpus de variables que necesita.
 - Las variables son mutables.
 - Se ejecutan los pasos del programa secuencialmente. Existe un corpus de instrucciones que permiten modificar la secuencia de ejecución.
 
-### Funcional (Lisp, Haskell...)
+### **Funcional (Lisp, Haskell...)**
 
 - Declara funciones para un reducido grupo de variables.
 - Solo se pueden declarar variables como parametros de una funcion.
@@ -106,16 +112,16 @@ Existen 3 grandes paradigmas:
 - Las funciones pueden actuar como variables.
 - Uso de la recursión como método iterativo.
 
-### Lógico (Prolog, F#...)
+### **Lógico (Prolog, F#...)**
 
 - Los programas siguen un esquema lógico, compone al programa usando hechos, predicados y relaciones.
 - Las variables son libres, mutables e inmutables, declaradas o no.
 - Finalmente se reduce todo a un solo problema de decisión.
 
 
-### Otros paradigmas
+### **Otros paradigmas**
 
-#### Programación orientada a objetos (POO) (C#, Java...)
+#### **Programación orientada a objetos (POO) (C#, Java...)**
 
 - Los programas se componen de objetos, que son unidades de datos responsables de proveer y recaptar información del entorno de ejecución.
 - Los objetos tienen subrutinas llamadas métodos y variables internas llamadas atributos.
@@ -124,7 +130,7 @@ Existen 3 grandes paradigmas:
 - Permite una sostenibilidad del código de los programas mucho mejor que el resto de paradigmas.
 - Se define en los principios [SOLID](https://es.wikipedia.org/wiki/SOLID) y [STUPID](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/ "Lo que se debe evitar hacer") como base de su filosofía.
 
-#### Declarativos (Miranda, Erlang...)
+#### **Declarativos (Miranda, Erlang...)**
 
 - Se escribe explícitamente que resultado se quiere obtener y la máquina se encarga de generarlo.
 - Todos los cálculos, variables o modificaciones en el resultado dependen de la asignación inicial que se realice. Por esto, todas las variables son inmutables.
@@ -135,3 +141,4 @@ Existen lenguajes que pueden ser compilados e interpretados y, a su vez, ser dé
 
 ---
 
+--> [INDEX](/PAGEMAP.md)
